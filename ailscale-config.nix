@@ -24,7 +24,7 @@ environment.systemPackages = [ pkgs.tailscale ];
 
 # enable the tailscale service
 services.tailscale.enable = true;
-# ...
+
 
 # create a oneshot job to authenticate to Tailscale
 systemd.services.tailscale-autoconnect = {
